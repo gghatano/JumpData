@@ -234,15 +234,11 @@ jump_data_modified %>%
   theme_bw(base_family = "HiraKakuProN-W3") + 
   xlab("最近100号のジャンプ") + 
   ylab("掲載順位") + 
-  ggtitle("HUNTERxHUNTERの掲載順位") + 
-  ylim(1,20) + 
-  scale_y_reverse() 
+ggtitle("HUNTERxHUNTERの掲載順位") + 
+ylim(1,20) + 
+scale_y_reverse() 
 ```
 
-```
-## Scale for 'y' is already present. Adding another scale for 'y', which will replace the existing scale.
-## Scale for 'y' is already present. Adding another scale for 'y', which will replace the existing scale.
-```
 
 ![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png) 
 
